@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+:root {
+  --primary-color: #97b097;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  background-color: rgb(195, 231, 213);
+}
+
+
+header h1 {
+  text-align: center;
+  font-weight: 200;
+  margin: 1rem;
+}
+
+.input-label {
+  display: block;
+  font-size: larger;
+  margin: 2rem;
+  font-weight: 600;
+}
+
+.input {
+    text-align: center;
+  font-size: medium;
+  display: block;
+  outline: #fff;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  margin: 1rem auto;
+  border: 2px solid var(--primary-color);
+  width: 100%;
+  max-width: 325px;
+}
+
+.btn {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.2rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  background-color: rgb(3, 59, 171);
+  margin-bottom: 1rem;
+}
+
+div {
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 7rem;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  footer p {
+    font-size: medium;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .footer-list {
+    margin: auto;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 30px;
+    padding: 0.7rem;
+  }
