@@ -15,7 +15,7 @@ function submitHandler() {
 }
 
 function calculate(initial, quantity, current) {
-  if (quantity >= 0) {
+  if (initial >= 0 && quantity >= 0 && current >= 0) {
     if (initial > current) {
       var loss = (initial - current) * quantity;
       var lossPer = (loss / initial) * 100;
@@ -30,7 +30,7 @@ function calculate(initial, quantity, current) {
       outputShow("No pain, No gain");
     }
   } else {
-    outputShow("Invalid Stock Number");
+    outputShow("Invalid  Number");
   }
 }
 function outputShow(message) {
