@@ -18,12 +18,12 @@ function calculate(initial, quantity, current) {
   if (initial >= 0 && quantity >= 0 && current >= 0) {
     if (initial > current) {
       var loss = (initial - current) * quantity;
-      var lossPer = (loss / initial) * 100;
+      var lossPer = ((initial - current) / initial) * 100;
 
       outputShow("loss is " + loss + " and percentage " + lossPer + " %");
     } else if (current > initial) {
       var profit = (current - initial) * quantity;
-      var profitPer = (profit / initial) * 100;
+      var profitPer = ((current - initial) / initial) * 100;
 
       outputShow("profit is " + profit + " and percentage " + profitPer + " %");
     } else {
